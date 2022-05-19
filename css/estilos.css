@@ -1,0 +1,75 @@
+body{
+    margin:50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+
+/* estilo flexbox para que la etiqueta main se expanda hacia la derecha */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+/* seccion de donar */
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* ESTILOS DE LOS POSTS */
+.card{
+    margin: 10px;
+    box-shadow:10px 5px 10px 4px rgba(0, 0, 0, 0.15);
+}
+.card-header{
+    text-align: right;
+    font-weight: bold;
+}
+.seccion .card-text{
+    margin: 10px 10px;
+}
+.full{
+    width: 800px;
+    height: 650px;
+}
+
+.imagen{
+    text-align: center;
+}
+
+img{
+    justify-content: center;
+    width: 750px;
+    height: 375px;
+}
+
+/* SECCION DE DESCARGAS Y/O DONACIONES */
+
+.seccion .card-body{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.flexbox-column{
+    
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+}
+
+.flexbox-row{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn{
+    margin: 2.0px;
+}
